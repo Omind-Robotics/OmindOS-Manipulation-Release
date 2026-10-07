@@ -13,8 +13,9 @@ OriginMind 源灵智能维护的移动双臂规划软件。默认整机是移动
 从 [Releases](https://github.com/maganrobotics-boop/OmindOS-Manipulation-Release/releases)
 下载 `OmindOS-Manipulation-0.2-Customer-Release-Linux-amd64.zip` 和 `SHA256SUMS-Customer-Release`。
 完整 ZIP 包含客户端、封装运行程序及验收记录。
-本公开仓库及 GitHub 自动生成的 Source code 只包含客户 SDK、模型、参数和文档，
-不包含核心算法源码，也不能代替封装运行程序。
+本公开仓库保存发行说明与验收记录；客户 SDK、模型和参数均在发行 ZIP 中。
+GitHub 自动生成的 Source code 仅是本入口的文档快照，不能代替客户运行包。
+公开发行内容不附送核心算法 `.py` 源码。
 
 ```bash
 sha256sum -c SHA256SUMS-Customer-Release
