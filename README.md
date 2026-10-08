@@ -1,5 +1,11 @@
 # OmindOS Manipulation 0.2 发行版
 
+> **发行入口已迁移（2026-10-09）**
+>
+> 后续版本、下载与使用指南请访问 **[新的发行仓库](https://github.com/maganrobotics-boop/OmindOS-Manipulation-Release)** · **[全部发行版本](https://github.com/maganrobotics-boop/OmindOS-Manipulation-Release/releases)**。
+>
+> 本仓库保留历史说明与发行记录。已同步的版本：[v0.2-runtime.1](https://github.com/maganrobotics-boop/OmindOS-Manipulation-Release/releases/tag/v0.2-runtime.1)。
+
 OriginMind 源灵智能维护的移动双臂规划软件。默认整机是移动底盘、一个俯仰腰关节、
 左右各七轴 RM75-B 机械臂。上半身共十五关节；底盘单独使用 `x、y、yaw` 三个位姿量。
 当前发行包用于离线几何规划、碰撞检查和仿真记录联动，不发送真机运动命令。
